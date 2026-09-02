@@ -8,5 +8,5 @@ import { FormsModule } from '@angular/forms';
   imports: [FormsModule]
 })
 export class TestComponentComponent {
-  testValue = signal("test");
+  readonly testValue = signal("test");
 }
